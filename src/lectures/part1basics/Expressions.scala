@@ -30,7 +30,7 @@ object Expressions extends App {
   println(1 + 3)
 
   var i= 0
-  val aWhile(i < 10) {
+  val a = while(i < 10) {
     println(i)
     i += 1
   }
